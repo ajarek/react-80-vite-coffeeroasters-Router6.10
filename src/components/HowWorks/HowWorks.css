@@ -34,3 +34,49 @@
 .circle3{
   right: 0;
 }
+.wrapper-cards{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 4rem;
+  place-items: center;
+ 
+}
+.wrapper-cards .card{
+  min-height: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper-cards .card h2{
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Fraunces';
+  color: var(--coffee-brown);
+}
+.wrapper-cards .card .title{
+font-family: 'Fraunces';
+ width: 186px;
+ font-size: 1.6rem;
+ font-weight: 900;
+}
+.wrapper-cards .card .desc{
+ color: var(--grey);
+}
+.how-works .link-btn{
+  margin: 2rem 0;
+  width: 197px;
+  height: 51px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+.how-works .link-btn:hover{
+background-color: var(--coffee-brown);
+color: var(--darker-cyan);
+}

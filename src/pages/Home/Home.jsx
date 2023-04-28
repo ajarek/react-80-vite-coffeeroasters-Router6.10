@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import Collection from '../../components/Collection/Collection'
 import InfoUs from '../../components/InfoUs/InfoUs'
 import HowWorks from '../../components/HowWorks/HowWorks'
+import Nav from '../../components/Nav/Nav'
+
 import './Home.css'
 const Home = () => {
   
@@ -17,6 +19,7 @@ const Home = () => {
    <Collection/>
    <InfoUs/>
    <HowWorks/>
+   <Nav background={'#000'} color={'#607D8B'} lol={false}/>
     </div>
   )
 }

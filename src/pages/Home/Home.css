@@ -2,7 +2,7 @@
   
   width: 100%;
   min-height: calc(100vh - 14vh);
-  padding:0 4rem;
+  padding:0 4rem 4rem 4rem;
 }
 .home .intro-bg{
   height: 541px;
