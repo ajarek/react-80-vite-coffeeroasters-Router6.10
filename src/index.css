@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+:root {
+  --cyan: #0E8784;
+  --darker-cyan: #052b2c;
+  --grey: #9c9e9e;
+  --dark-grey: #333D4B;
+  --light-grey: #bec5c5;
+  --coffee-brown: #fdd6ba;
+  --white: #f0f1f1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "PT Sans", sans-serif;
+  
+  
+}
+#root{
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}

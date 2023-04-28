@@ -1,0 +1,41 @@
+.collection{
+  width: 100%;
+  min-height: 891px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10rem;
+  position: relative;
+}
+.collection h1{
+  background-image: linear-gradient(to bottom, rgb(184, 184, 184), white);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-size: 9rem;
+  word-wrap: break-word;
+}
+.collection-wrapper{
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  position: absolute;
+  bottom: 150px;
+}
+.collection-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.collection-card h2{
+  font-family:"Fraunces" ;
+
+}
+.collection-card .desc{
+ color:var(--grey) ;
+}

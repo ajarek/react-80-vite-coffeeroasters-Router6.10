@@ -1,0 +1,36 @@
+.how-works{
+  margin-top: 10rem;
+}
+.how-works h1{
+  margin-bottom: 5rem;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  color: var(--grey);
+}
+.circles {
+  height: 2px;
+  width: 100%;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.line {
+  position: relative;
+  background-color: var(--coffee-brown);
+  grid-column: 1/2;
+}
+.circle {
+  position: absolute;
+  background-color: white;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 2px solid var(--cyan);
+  transform: translateY(-50%);
+}
+.circle2{
+  left: 50%;
+}
+.circle3{
+  right: 0;
+}

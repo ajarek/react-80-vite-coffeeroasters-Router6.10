@@ -1,0 +1,86 @@
+.intro-bg {
+  background-image: url(desktop/image-hero-blackcup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 8rem 5.5rem;
+  margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-title {
+  color: var(--white);
+  max-width: 10ch;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.intro-para {
+  color: var(--grey);
+  max-width: 45ch;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro-bg {
+    background-image: url(tablet/image-hero-blackcup.jpg);
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .intro-bg {
+    background-image: url(mobile/image-hero-blackcup.jpg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .intro-title {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .intro-bg {
+    margin-top: 91px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .intro-bg {
+    padding: 5rem 3rem;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .intro-title {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .intro-bg {
+    padding: 4rem 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro-title {
+    font-size: 2.5rem;
+  }
+}

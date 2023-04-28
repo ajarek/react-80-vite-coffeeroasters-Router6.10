@@ -1,0 +1,51 @@
+.info-us{
+    background-color: var(--darker-cyan);
+    height: 541px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--white);
+    padding: 5rem;
+    position: relative;
+}
+.info-us h1{
+  font-family: 'Fraunces';
+  font-size:2.5rem ;
+  margin-bottom: 2rem;
+}
+.info-us p{
+width: 532px;
+text-align: center;
+color: var(--grey);
+}
+.info-us-wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  position: absolute;
+  bottom: -165px;
+  padding: 4rem;
+}
+.info-us-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height:331px ;
+  background-color: var(--cyan);
+  padding: 2rem;
+  border-radius: 8px;
+}
+.info-us-card .title{
+  font-family: 'Fraunces';
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.info-us-card .desc{
+  text-align: center;
+  color: var(--grey);
+}
