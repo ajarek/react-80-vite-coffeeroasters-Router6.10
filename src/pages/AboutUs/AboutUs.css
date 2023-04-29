@@ -1,0 +1,120 @@
+.about-us {
+  width: 100%;
+  min-height: calc(100vh - 14vh);
+  padding: 0 4rem 4rem 4rem;
+}
+.about-us-intro-bg {
+  height: 416px;
+  background: url('../../assets/about/desktop/image-hero-whitecup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  margin-bottom: 10rem;
+}
+.about-us-intro-info {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 4rem;
+  font-family: 'Fraunces';
+  color: var(--white);
+}
+.about-us-intro-info h1 {
+  font-size: 4rem;
+}
+.about-us-intro-info p {
+  font-family: 'PT+Sans', sans-serif;
+  line-height: 1.5;
+  color: var(--grey);
+}
+.commitment,
+.quality {
+  display: grid;
+  grid-template-columns: auto 320px;
+  gap: 4rem;
+  padding: 0 4rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+.quality {
+  background-color: var(--darker-cyan);
+  border-radius: 8px;
+  height: 480px;
+}
+.commitment-img {
+  height: 480px;
+}
+.quality-img {
+  position: absolute;
+  right: 80px;
+  bottom: 103px;
+  width: 391px;
+  height: 416px;
+}
+.commitment-img img,
+.quality-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.commitment-wrapper,
+.quality-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.commitment-title,
+.quality-title {
+  color: var(--white);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.commitment-text,
+.quality-text {
+  font-size: 1rem;
+  line-height: 24px;
+  color: var(--grey);
+}
+.quality-text {
+  width: 488px;
+}
+.headquarters {
+  height: 430px;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+.headquarters-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  color: var(--grey);
+}
+.headquarters-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.headquarters-card {
+  min-height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headquarters-card-country {
+  font-family: 'Fraunces', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.headquarters p {
+  color: var(--grey);
+}
